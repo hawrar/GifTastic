@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giphy Animals</title>
+  <!-- Current compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <!-- Link for Awesome Glyphicons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <!--CSS files: reset.css and style.css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<div class="clear"></div>
+
+<body>
+  <div class="wrapper">
+    <div class="col-md-1"></div>
+    <div class="col-md-6">
+      <div id=animalButtons>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <form id="animalForm">
+        <label for="animalImage">Add an animal
+        </label>
+        <input type="text" id=animalInput></input>
+        <input id="addAnimal" type="submit" value="submit"></input>
+      </form>
+      <h2>Choose a button and see the slides of that animal</h2>
+      <p>Don't like the list of animals? Just add yours and click enter.</p>
+      <p>Wanna see how an animal moves? Tickle it with a click</p>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-12">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div id=animals>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="push"></div>
+  <footer class="footer">
+  </footer>
+  </div>
+  <!--jQuery link-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+  <!--Javascript file-->
+  <script type="text/javascript" src="assets/javascript/giphy.js"></script>
+</body>
+
+</html>
